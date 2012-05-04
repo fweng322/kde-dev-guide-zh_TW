@@ -1,0 +1,22 @@
+
+19.  關於此書
+
+致謝
+
+在寫此書的時候，有些人真的幫了不少忙。沒有他們的支持跟鼓勵，這本書沒辦法完成。以下名單沒有特別的順序：
+
+ - Aspiration (http://www.aspirationtech.org/) 的 Gunner，還有許多其他的團隊，如 OpenMRS，OpenStreetMap，以及 Sahana Eden 等，都給我們許多靈感啟發。
+ - Nóirín Plunkett 與 Belinda Lopez 在寫作與編輯上幫了我們很多忙。
+ - Floss Manuals 的 Adam 幫了許多忙，還有 Booki 團隊跟我們一起完成這本書。
+
+我們也要感謝 KDE 社群，除了提供完整的文件讓我們可以自由地偷... 嗯，自由地參考，也提供了一個讓我們成長與貢獻的氛圍。
+
+特別要感謝 Ingo Malchow，Lydia Pintscher 以及 KDE-Promo 團隊在時間急迫的狀況下提供了我們許多許多的幫助。
+
+
+團隊成員
+
+這本書一開始是在 2011 年 10 月，於 加州 Mountain View 的 Googleplex 裡，一個三天的工作集會上寫出來的。Google Summer of Code 的 Carol Smith 提供了資金讓 Karan，Supreet 與 Rohan 從印度飛過來，也提供房子與食宿給我們。在這三天的時間裡，Rohan 滿 21 歲，我們特地舉辦了一個 X-box party 來慶祝！
+
+
+[圖片]

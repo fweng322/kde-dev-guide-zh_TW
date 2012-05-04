@@ -1,0 +1,35 @@
+18.  有用的參考連結
+
+KDE: http://kde.org/
+KDE 專案首頁
+
+KDE Techbase: http://techbase.kde.org/
+KDE 開發者 Wiki
+
+KDE Userbase: http://userbase.kde.org/
+KDE 使用者 Wiki
+
+KDE Identity: https://identity.kde.org/
+可以在多個 KDE 站台間認證的單一登入系統
+
+KDE Projects Page: https://projects.kde.org/
+在 git.kde.org 中所有以 KDE 為基礎的專案概觀。
+An overview of all projects within git.kde.org that are based on KDE technology
+
+Qt Tutorials: http://doc.qt.nokia.com/
+Qt 的教學文件
+
+Git in 30 minutes: http://blip.tv/scott-chacon/git-in-30-minutes-4064151  
+介紹如何使用 Git 的影片
+
+The Dot: http://dot.kde.org/  
+官方 KDE 新聞站
+
+Behind KDE: http://behindkde.org/
+世界各地為 KDE 工作的人們
+
+Planet KDE: http://planetkde.org/
+KDE 社群成員部落格的集合
+
+The KDE Release Schedule: http://techbase.kde.org/Schedules
+KDE 釋出時程表
