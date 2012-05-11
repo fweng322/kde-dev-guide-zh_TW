@@ -1,0 +1,36 @@
+07. 選擇整合式開發環境工具
+
+整合式開發環境工具（Integrated Development Environmant，以下簡稱 IDE）讓你可以很容易的對你的程式碼進行管理、測試以及其他各種動作。我們推薦你使用下面幾種 IDE 之一作為在 KDE 平台開發的工具。
+
+我們因為 Qt Creator 的易用性與功能性而推薦它，尤其是在內建文字編輯器的功能上。如果你很熟悉 Eclipse 的話，有個好消息是，你也可以用 Eclipse 來開發 KDE 應用程式。
+
+
+Qt Creator
+
+[圖片]
+
+Qt Creator 是 Qt 開發工貝提供的一個給 C++ 和 JavaScript 使用的 IDE，它包含了設計圖形使用者介面的圖形化工具。Qt Creator 的文字編輯器提供語法標記與自動補全等功能，預設使用 GNU C++ 編譯器與其他相關工具。在 Windows 上 Qt Creator 使用 MinGW 或是 MSVC，如果是從原始碼編譯而成時則用 cdb。
+
+你可以在這裡找到更多 Qt Creator 用在 KDE 開發的介紹：
+
+    http://techbase.kde.org/Development/Tutorials/Using_Qt_Creator
+
+
+KDevelop
+
+[圖片]
+
+KDevelop 是 KDE 開發計畫中創立給 C/C++ 與其他程式語言在 Microsoft Windows、Mac OS X、Linux、Solaris 和 FreeBSDS 開發的 IDE，它提供了許多功能並能透過外掛模組再更進一步擴充。KDevelop 建立在 KDevPlatform、KDE 開發平台與 Qt 函式庫之上並由 1998 年發展至今。
+
+你可以在這裡找到更多 KDevelop 的資訊：
+
+    http://userbase.kde.org/KDevelop4/Manual
+
+
+Eclipse
+
+Eclipse 是一個熱門的開放原始碼 IDE。它通常用來作為 Java 的開發環境，但是透過適合的外掛模組也能支援其他的程式語言，包括 C++。
+
+你可以在這裡找到更多 Eclipse 用在 KDE 開發的資訊：
+
+    http://techbase.kde.org/Development/Tools/Eclipse
