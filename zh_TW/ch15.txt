@@ -1,0 +1,118 @@
+15. 有用的工具
+
+這一章裡我們列出了一些我們最常用於軟體開發、除錯、編譯等等的工具。有些工具在本書的其他章節中也會提到。
+
+核心工具
+
+這些工具是編譯與開發 KDE 軟體是絕對需要的。大多數您所使用的 Linux 套件通常都會提供這些工具。在其它的平台上應該也會有，或是至少也可以直接從這些工具的官方網頁中下載得到。當然，其它的一些開發工具，如 C/C++ 編譯器，文字編輯器等也是必要的。這些就不贅述了。
+
+CMake - CMake 是 KDE 軟體集的編譯系統。您可以用 CMake 來設定軟體專案的編譯行為，在設定過程中也會告訴您您還缺少哪些需要的套件。
+
+Git - 大部份 KDE 軟體集的專案都用 Git 做控管，所以您需要 Git 以便取得軟體的程式碼。您也可以在 KDE 軟體專案目錄中找到相關的 Git 網址。您可以參考 git 的設定說明。
+
+Subversion - KDE 軟體集的某些部份還是使用 subversion 做控管，特別是翻譯的部份。
+
+除錯與分析工具
+
+這些工具是用來分析程式，以便做除錯與調整。
+
+Valgrind - Valgrind 可以協助您找出記憶體漏洞，以及未初始化的記憶區塊。它也包含一個分析器 (profiler)，還有其它更多工具。Valgrind 是最重要的開發工具之一。
+
+GDB - GNU 的除錯器。GDB 提供不少功能，如設定中斷點，單步執行程式碼，查看堆疊等，可以協助您在程式碼內找出問題。它還在發展中，不過目前我們推薦使用 6.x 版。它也有圖形的前端介面。您可以參考 KDE techbase 中「用 GDB 除錯」的教學 ( http://techbase.kde.org/Development/Tutorials/Debugging/Debugging_with_GDB )
+
+KDbg 與 DDD - GDB 的前端圖形介面。
+
+MS Windows 的工具 (行程瀏覽器、主控台、WinDbg、DebugView 等) - 這些工具您可以參考 KDE Techbase 上的 "Windows 上的 KDE":
+
+http://techbase.kde.org/Projects/KDE_on_Windows 
+
+
+開發工具
+
+這些是協助您開發用的基本工具。在之前的某些章節也已經有一些討論。
+
+Qt Creator
+這是我們推薦用於開發 KDE 軟體集的整合開發環境 (IDE)。它可以讓您輕鬆寫新的程式，並將現有程式整合進 IDE 中。關於此工具的更多詳細教學可以參考：
+
+ http://www.developer.nokia.com/Community/Wiki/How_to_use_Qt_Creator_IDE  
+
+KDevelop
+KDevelop 是 KDE 軟體集中的一個工具軟體，用於開發 KDE 與 Qt C++ 應用程式。它裡頭有一個整合的除錯器，一個強大的，支援語法突顯的編輯器，用於從樣本建立應用程式的專案精靈，automake/autoconf 的套件集，甚至許多類別的文件等。您可以在 KDevelop wiki 上找到更多詳細的資料。
+
+http://kdevelop.org/ 
+
+Eclipse
+Eclipse 原先是為寫 Java 程式而設計的，不過它也有許多延伸套件，用於支援許多其他的程式語言。您可以在 http://www.eclipse.org 中找到許多資料。
+
+MS Visual Studio® Express IDE (只限用於 Windows 平台)
+Visual C++® Express 是 Microsoft Visual Studio 中的免費版本的編譯器，目前由 Nokia 正式支援。它也是用於在 Windows 上編譯 Qt 與 KDE 程式的一個選擇。您可以在下列網址找到更多資訊：
+
+http://techbase.kde.org/Projects/KDE_on_Windows 
+
+支援國際化 (i18n) 工具
+
+這些工具協助您建立支援不同語言，甚至可以處理不同國家的貨幣、時間等等的應用程式，
+
+Lokalize
+Lokalize 是個電腦輔助翻譯 (CAT) 系統。它裡頭包含了這種系統常使用的組件：翻譯記憶體、字彙處理等等。它也支援翻譯合併（同步）功能。它的目的是做軟體翻譯，並整合外部工具做自由辦公文件翻譯。
+
+Dr. Klash
+它可以回報選單中有重複、相衝的快捷鍵。這個工具對翻譯者與開發者都很有用。
+
+x-test 語言
+這種「語言」可以幫您找到應用程式中未翻譯的字串。若您將您的地域設定 (locale) 設為 x-test 然後啟動應用程式，所有已翻譯的字串會出現，並在前後加上 xx。
+
+協助工具
+
+這些工具提供了一些很有用的功能。
+
+kde4-config
+
+幫使用者找到更多關於 KDE 軟體集安裝的資訊。
+
+kfmclient
+
+讓您可以透過文稿來控制 Konqueror 瀏覽器。
+
+kioclient
+
+網路操作的命令列工具。
+
+kconf_update
+
+更新設定檔。
+
+apidox tools
+
+協助開發與產生程式碼的 API 文件。
+
+Automoc4
+
+用於編譯 KDE4 軟體集的協助工具。它會自動產生 moc 檔。
+
+svnmerge.py
+
+幫助您追蹤不同 SVN 分支合併情形的工具。
+
+
+品管工具
+
+程式碼檢視
+
+KDE 使用 Review Board 做程式碼檢視。請參考 KDE Techbase 上的相關資訊:
+
+http://techbase.kde.org/Development/Review_Board
+
+連續編譯 - 資訊看板(Dashboard)
+
+Dirk 的資訊看板上包含了所有的 KDE 模組。而 Win32 上的資訊看板則顯示 Windows 上的模組。
+
+英語早餐網 (English Breakfast Network, EBN) - 靜態分析工具
+EBN 是用於自動化檢查 KDE 程式碼品質的工具集。基本上，這意思就是它們會把整個 KDE 的程式碼從 git 中取出來，然後用工具來檢查。
+
+EBN 使用以下的工具:
+
+Krazy - 程式碼分析
+APIDOX - API 文件
+Sanitizer - DocBook 檢查
+可用性檢查
