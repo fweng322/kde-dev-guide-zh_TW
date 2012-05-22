@@ -1,0 +1,35 @@
+
+3. 如何取得協助
+
+
+當然，我希望這本書能對您有幫助！但是不可避免地，您會有許多問題需要協助。KDE 社群本身能提供友善的協助，所以這一章提供您一些方法，讓您選擇最適當的方式尋求協助。除非您有特別的需要一定得跟特定的人討論，不然請對整個論壇或頻道。
+
+
+KDE 郵件論壇
+
+KDE 郵件論壇是 KDE 社群中主要的溝通管道之一。所有的開發者都可以在 kde-devel 郵件論壇中挖到不少寶。此外，要開發 KDE 軟體集（KDE SC）核心的人們，可以訂閱 kde-core-devel 郵件論壇。開發應用程式或特定 KDE 軟體的人，可以訂閱該軟體的郵件論壇。所有 KDE 的郵件論壇的列表可以在 https://mail.kde.org/mailman/listinfo 找到。
+
+在論壇中可以得到不少有用的資訊與協助。不過若是您需要快速地得到協助，IRC 可能更理想。
+
+
+IRC 上的 KDE 相關頻道
+
+
+IRC 是 Internet Relay Chat 的縮寫，它是個純文字的即時通訊工具。在 KDE 裡就有不少 IRC 的客戶端程式可用，像是 Konversation，Quassel 與 Kvirc 等。
+
+幾乎所有的 KDE 開發者都會掛在 Freenode (irc.freenode.net) 的 KDE IRC 頻道上。IRC 是最快從 KDE 開發者取得協助的方式。若您是開發者，您可以在 #kde, #kde-devel, 還有您自己產品的頻道上掛著。掛得越久，您就可以從共同開發者與使用者那邊取得更多的訊息。頻道裡也可以交到一輩子的好朋友。頻道內的指令，您可以透過 chanserv 或 nickserv 等服務取得，只要下 /msg chanserv help 與 /msg nickserv help 即可。這裡有更多使用 Freenode 的說明：http://freenode.net/using_the_network.shtml
+
+Userbase 裡也有列出目前所有的 IRC 頻道：http://userbase.kde.org/IRC_Channels 。您可以用 /msg alis list $searchterm 來取得清單，其中 $searchterm 是您要搜尋的字串。
+
+要問問題的時候，請記住以下幾點：
+
+* 若您有問題，不用客氣。不必先問大家您可不可以問問題。
+* 要有耐心。雖然 IRC 是個即時通訊系統，但這不表示廿四小時都有人在線上回答您的問題。通常來說，若您在一個小時內未得到任何回應，最好改寄電子郵件。
+* 您的問題不要問兩次以上。雖然頻道裡有人，但不見得都能回答您的問題。所以不要一直問。唯一的例外是，若是有人告訴您某人上線可以回答您的問題，那麼在等到對方上線後您可以再提一次。另外，這裡再說一次，若是提問一個小時內未得到回應，那麼最好改寄電子郵件。
+* 在頻道裡貼上一大堆的資料是不恰當的。所以請改用 pastebin。KDE 的 pastebin 在 http://paste.kde.org
+
+
+KDE 社群問題
+
+
+若是您在頻道或郵件論壇中遇到有人在惡搞或不禮貌，請向郵件論壇或頻道的管理者反應。寄信給 $listname-owner@kde.org ($listname 為郵件論壇名稱)，郵件論壇管理者就會收到信。在頻道內的成員清單中，管理員的前面會有個 "+" 號。一般的 KDE 社群問題，請寫信到 community-wg@kde.org 社群工作群組（Community Working Group）中，或是到我們的 IRC 頻道 #kde-cwg 裡詢問。
