@@ -1,0 +1,182 @@
+
+
+4. 選擇專案
+
+
+當您要進入 KDE 成為開發者時，您可能已經知道您想要貢獻的是哪個專案。不過您還是可以看一下這一章裡所列出來的各式各樣的專案，看看您可以幫忙哪些。即使您只對其中一個專案有興趣，您也還是可以瞭解一下其他的專案，因為您的工作也可能會需要跟其他專案的開發者互動。
+
+
+框架
+
+
+這些是 KDE 應用程式與部件的底層的組件。開發團隊盡可能地將這些函式庫模組化，釐清它們間的相依性關係，簡化並增進品質與穩定度。
+
+
+KDE 核心函式庫 (kdelibs)
+整個 KDE 平台所需要的重要關鍵函式。
+
+元件與類別
+不在 kdelibs 裡，但是被廣泛使用的元件與類別
+
+D-Bus 網頁服務代理伺服器
+透過 Linux 上的 D-Bus 架構連接網頁服務
+
+kdesu
+在不同的後端介面取得管理者權限的工具
+
+KDE WebKit
+將 QtWebKit 瀏覽器引擎整合進 KDE 軟體集裡的專案
+
+KioFuse
+將 KIO (K Input Output) 的資源（包括遠端存取、歸檔或壓縮檔）到檔案系統中
+
+Nepomuk
+基本的桌面註記、索引、搜尋與連結的操作
+
+Network Management
+Solid Networking 與 KNetworkManager 的設定工具元件
+
+Oxygen
+KDE 軟體集的美工主題
+
+Solid
+KDE 軟體集中與操控硬體設備相關的函式庫
+
+Telepathy
+即時通訊、VoIP 與協同溝通的框架
+
+Akonadi
+跨桌面的儲存服務，儲存個人資訊管理 (PIM) 資料與其它中繼資料
+
+相關專案
+其它與 KDE 相關，或相依，或用於編譯的工具專案
+
+
+程式
+
+
+由 KDE 開發者建立與維護的應用程式集
+
+
+Amarok
+Amarok 的口號是「重新探索您的音樂」，它的開發以是以此精神為基礎。Amarok 的核心功能，如獨特內文瀏覽器（unique context browser），整合維基百科的搜尋與歌詞的下載等，都能幫使用者找到新的音樂，並且對自己所有的音樂更加瞭解。
+
+Digikam
+相片管理軟體
+
+Gwenview
+KDE 裡的影像檢視器
+
+K3b
+光碟燒錄軟體
+
+KDevelop4
+KDE 軟體集中的整合開發環境軟體
+
+KWin
+KDE 的視窗管理員
+
+Marble
+地球儀軟體
+
+Okular
+KDE 裡的文件檢視器
+
+Rekonq
+KDE 軟體集中以 WebKit 做引擎的輕量級瀏覽器
+
+System Settings
+系統設定工具
+
+SuperKaramba
+建立吸睛的元件與其它互動性元件
+
+
+軟體套件組
+
+
+這些專案是將許多相關聯的應用程式組合起來。主要的概念是在套件組中的其中一個組件所建立的資料，可以很容易地被套件組中其它的應用程式所使用。
+
+
+KDE 教育專案
+KDE 裡的教育類軟體
+
+KDE 財務管理
+財務管理相關的應用程式
+
+KDE Games
+KDE 裡的遊戲軟體
+
+Kdetoys
+一些好玩的小東西
+
+KDE 工具集
+許多可以在桌面上使用的工具
+
+KOffice 與 Calligra
+以 KDE 函式庫開發的辦公軟體套件
+
+PIM
+個人資訊管理（Personal information management）工具
+
+Plasma
+可以快速輕鬆建立元件的程式，包括互動式的應用程式啟動器、視窗與工作等等
+
+
+平台
+
+這些專案讓 KDE 可以在不同的作業系統中運作。
+
+KDE on Mac OS X
+在 Mac OS X 中的 KDE 函式庫與應用程式
+
+KDE on Windows
+在 Microsoft Windows 中的 KDE 函式庫與應用程式
+
+KDE on FreeBSD
+在 FreeBSD 與其它 BSD 系統中的 KDE 函式庫與應用程式
+
+Plasma Active
+將 KDE 的平台移植到行動裝置上
+
+
+協助團隊運作
+
+
+這些專案主要包括人事、程序等等
+
+
+KDE 釋出團隊
+安排與協調 KDE 釋出時程等
+
+KDE 文件專案
+建立與維護 KDE 文件
+
+kde.org
+提供與維護 *.kde.org 網站的資訊
+
+KDE 推廣
+推廣 KDE 與舉辦研討會
+
+支援夥伴
+支援 KDE 的獨立軟體開發廠商（Independent Software Vendor, ISV）
+
+KDE 可用性專案
+將可用性的原則與實作套用到 KDE
+
+KDE 無障礙專案
+以 Qt 的功能來建立方便身心障礙者使用的互動環境
+
+KDE BugSquad
+分類、整理 KDE 軟體的錯誤，並追蹤舊問題
+
+Summer of Code 專案
+與 KDE 相關的 Google Summer of Code 專案
+
+English Breakfast Network (EBN)
+提供增進 KDE 程式碼品質專屬的工具，包括 KDE API 文件確認，使用者文件確認，程式碼檢查等等。
+
+KDE 研究
+支援所有對貢獻（或捐獻） KDE 社群內研究專案有興趣的人們
+
+若您對於您要貢獻的專案仍有疑惑，請到 IRC 上尋求 KDE 軟體開發者的協助，以便對您的專案更加熟悉。
