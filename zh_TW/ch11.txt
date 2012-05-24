@@ -1,0 +1,44 @@
+11. 其他編譯 KDE 的方式
+
+你不一定總是需要從原始碼編譯 KDE，網路上已經有許多預先編譯好的 KDE 環境可以使用。這一章我們將介紹如何不從原始碼編譯也能使用 KDE 環境。
+
+
+Neon 專案
+
+Neon 專案團隊提供每日編譯的 KDE 環境給使用 Kubuntu 的開發者。Neon 專案會將編譯好的環境安裝在 /opt/project-neon，讓你在日常使用的 KDE 環境外有乾淨的 KDE 環境可以進行開發。
+
+你可以在 Launchpad 找到 Neon 專案的頁面：https://launchpad.net/~neon。你可以直接用下面的指令安裝這些套件：
+
+sudo add-apt-repository ppa:neon/ppa && sudo apt-get update && sudo apt-get install project-neon-base
+
+你可以在這裡找到更多 Neon 專案的資訊：
+
+    https://wiki.ubuntu.com/Kubuntu/ProjectNeon
+    http://techbase.kde.org/Getting_Started/Using_Project_Neon_to_contribute_to_KDE
+
+
+openSUSE
+
+這個發行版提供了經常性的 KDE 環境套件。他們原有的目標是以星期為單位提供 KDE 環境的套件，但這並不總是那麼容易達成。這些套件不會總是包括了 openSUSE 的 patch，也不提供給較舊版的 openSUSE。你必需加入套件庫才能使用這些套件。
+
+版本：11.4
+核心套件：http://download.opensuse.org/repositories/KDE:/Unstable:/SC/openSUSE_11.4/
+應用程式：http://download.opensuse.org/repositories/KDE:/UpdatedApps/openSUSE_11.4/
+額外套件：http://download.opensuse.org/repositories/KDE:/Extra/openSUSE_11.4_KDE_Unstable_SC/
+非穩定版：http://download.opensuse.org/repositories/KDE:/Unstable:/Playground/openSUSE_11.4_KDE_Unstable_SC/
+
+版本：11.3
+核心套件：http://download.opensuse.org/repositories/KDE:/Unstable:/SC/openSUSE_11.3/
+應用程式：http://download.opensuse.org/repositories/KDE:/UpdatedApps/openSUSE_11.3/
+額外套件：http://download.opensuse.org/repositories/KDE:/Extra/openSUSE_11.3_KDE_Unstable_SC/
+非穩定版：http://download.opensuse.org/repositories/KDE:/Unstable:/Playground/openSUSE_11.3_KDE_Unstable_SC/
+
+版本：Factory
+核心套件：http://download.opensuse.org/repositories/KDE:/Unstable:/SC/openSUSE_Factory/
+應用程式：使用 openSUSE:Factory 提供的套件
+額外套件：http://download.opensuse.org/repositories/KDE:/Extra/openSUSE_Factory_KDE_Unstable_SC/
+非穩定版：http://download.opensuse.org/repositories/KDE:/Unstable:/Playground/openSUSE_Factory_KDE_Unstable_SC/
+
+你可以在這裡找到更多有關 openSUSE 的 KDE 環境套件的資訊：
+
+    http://en.opensuse.org/KDE_repositories# Unstable:SC_aka._KUSC_.28KDE_trunk.29
