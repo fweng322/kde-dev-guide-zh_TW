@@ -1,0 +1,58 @@
+10. 系統需求
+
+在你開始從原始碼編譯 KDE 開發環境之前，先想好你是不是真的需要這麼做？如果要從 KDE 核心下手的話，就放手做吧。如果只是要開發應用程式，你並不需要從原始碼編譯整個開發環境。我們建議你可以在郵件論壇或是 IRC 上詢問你是否需要編譯整個開發環境。
+
+假設你要從原始碼編譯 KDE 的話，你需要先設置好整個環境並安裝包含編譯 KDE 平台原始碼所需檔案的套件。
+
+
+設置環境
+
+要設置編譯 KDE 平台的環境，首先你必須參考下面的說明建立一個包含環境變數與其他設定的文件：
+
+http://techbase.kde.org/Getting_Started/Build/Environment#Environment_Configuration
+
+將這個文件存在你編譯 KDE 環境的根目錄中名為 .build-config 的檔案中。如果你需要分開不同的編譯環境，像是穩定版與測試版，我們建議你分別在每個不同環境的根目錄中建立設定文件。
+
+
+系統需求
+
+在這裡我們說明在開始編譯 KDE 平台前你所需要安裝的套件。在大部份的情況下，我們建議你使用你的發行版提供的套件，不過有時你可能需要自己編譯這些套件。
+
+Debian/Ubuntu
+
+在 Debian/Ubuntu 要編譯 KDE 4.6 至少需要安裝以下的套件：
+
+sudo apt-get install graphviz libxml2-utils libopenexr-dev libjasper-dev libenchant-dev \
+libavahi-common-dev libaspell-dev libasound2-dev libldap2-dev libsasl2-dev \
+libsmbclient-dev libxkbfile-dev libxcb1-dev libxklavier-dev libxdamage-dev \
+libxcomposite-dev libbluetooth-dev libusb-dev network-manager-dev \
+libsensors4-dev libnm-util-dev libcfitsio3-dev libnova-dev libeigen2-dev \
+libopenbabel-dev libfacile-ocaml-dev libboost-python-dev libsvn-dev libsvncpp-dev \
+libqt4-dev libqca2-dev libstreamanalyzer-dev libstrigiqtdbusclient-dev \
+libcommoncpp2-dev libidn11 libidn11-dev libpci-dev libxss-dev libxft-dev \
+libpolkit-agent-1-dev libpolkit-backend-1-dev libpolkit-gobject-1-dev git libpoppler-qt4-dev \
+libspectre-dev
+
+更多 Debian/Ubuntu 可以選用的套件可以參考：
+
+    http://techbase.kde.org/Getting_Started/Build/Distributions/Debian
+
+openSUSE
+
+在 openSUSE 至少需要安裝：
+
+yast -i alsa-devel automoc4 avahi-devel patch cups-devel kde4-filesystem \
+libbz2-devel avahi-compat-mDNSResponder-devel hal-devel xorg-x11-devel \
+libQtWebKit-devel libxml2-devel kdesdk4 clucene-core-devel boost-devel \
+libjpeg-devel liblrdf-devel libpng-devel libxslt-devel libredland-devel \
+Mesa-devel giflib-devel subversion gcc-c++ gmp-devel xine-devel \
+libgpgme-devel pcre-devel dbus-1-devel libqt4-devel cmake git \
+doxygen polkit-devel docbook-xsl-stylesheets cyrus-sasl-devel libical-devel
+
+更多 openSUSE 可以選用的套件可以參考：
+
+    http://techbase.kde.org/Getting_Started/Build/Distributions/openSUSE
+
+其他發行版
+
+    請參考 http://techbase.kde.org/Getting_Started/Build/Distributions
