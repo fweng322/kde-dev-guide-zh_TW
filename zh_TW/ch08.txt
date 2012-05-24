@@ -1,0 +1,24 @@
+
+8. KDE 的 API
+
+所謂的 API (Application Program Interface) 是指由某個程式或函式庫所提供出來的函式。這些函式可以允許第三方的軟體輕易地為此程式加上新的功能，從而大大地擴展了它的應用，而能夠在不必動到原來的核心程式碼的情況下加上新功能一直都是最理想的方式。
+
+API 的文件會解釋該函式怎麼呼叫與運作。要在 KDE 平台上開發，這邊有一些不錯的教學文件：
+
+http://techbase.kde.org/Development/Tutorials
+
+KDE 開發平台的 API 文件 (apidox) 在：
+
+http://api.kde.org
+
+這份文件是 qch 格式，它是一種延伸的 HTML 格式，可以用 QtCreator Assistant 或任何其它瀏覽器觀看。
+
+Apidox 是由 Doxygen 來處理。這是一套會自動讀取與剖析程式源碼並產生機美格式的文件的工具。它也有一套很好的參考文件，不過如果您只是要做基本的文件，您不太需要去看這些教學文件。當您安裝 KDE 開發平台時，您也應該一起安裝 Doxygen，然後您就可以用以下的指令來從各專案的程式源碼建立文件：
+
+
+make docs
+
+更多關於 KDE API 的資訊可以在下面的網址找到：
+
+http://techbase.kde.org/Development/Tools/apidox
+
