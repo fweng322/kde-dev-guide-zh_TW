@@ -1,0 +1,39 @@
+09. 文件
+
+如果你在 KDE 專案中加入了新的函數，我們希望你能用文件 (apidox) 盡可能的說明清楚這個函數可以做到什麼事情。你的文件說明越完整，其他開發者也越能順利的使用它，也省得他們詢問基礎的使用問題而惹怒你。
+
+API 文件有時也被稱為 API 參考手冊，不過它並不需要只像參考手冊一樣。實際上它可以廣泛包含各種題材，像是教學、範例和歷史資訊等。在這裡我們用 apidox 表示所有用來解釋 API 的相關文件，這也是 KDE 開發平台文件中對這個專有名詞的定義。
+
+基本上撰寫 apidox 是簡單而有趣的，你只要將特定格式的註解加到程式碼中就行了。這些註解與你平常在程式碼標頭加入的東西非常相似，所以使用它並不是什麼難事。這是一個簡單的範例：
+
+/**
+ * @ author praxagora
+ *
+ * Returns a CHI square comparing two samples.
+ * The arrays must be the same size.
+ *
+ * @ param a First sample
+ * @ param b Second sample
+ *
+ * @ return @ size size of each sample.
+ */
+double chi_square(double a[], double b[], int size) {
+double total_a=0.0, total_b=0.0, total, totals[size],
+square_a[size], square_b[size], square_totals[size],
+    terms[size],
+    terms_total=0.0, sum_total=0.0, square_sum_total=0.0;
+  int i;
+  /**
+    * This loop comprises the whole function and computes the CHI
+    * square from the two arrays.
+  */
+    {
+  for (i = 0; i < size ; i++)
+
+注意註解必須加在函數還有每一個層級的巢狀區塊之前，像是 for 迴圈等。註解必須明確標出函數的所有引數以及回傳值。
+
+要寫出好的 apidox，首先你需要相關的技術認知：你必須了解你所說明的程式碼內容，或至少知道它能做些什麼以及怎麼使用它。剩下只要遵循一個基本的準則：越詳盡的 apidox 對開發者越有用。
+
+實際上，文件不需要詳細解譯程式碼的每一個步驟。程式碼應該簡潔、架構清楚並使用良好的變數與函數命名，使得它能夠自我說明每一個敘述在做什麼。文件則應該說明這些程式碼是用來做什麼、每個引數的用途以及程式碼使用的演算法等。
+
+你可以參考 Qt 的文件來熟悉如何寫出好的 apidox，它們格式一致並且說明詳盡。你可以從閱讀 Qt 的文件學到很多，你甚至可以不需要閱讀教學和程式碼就能知道函數中的引數是用來做些什麼。文件已足以說明一切。
