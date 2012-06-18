@@ -1,0 +1,128 @@
+
+
+6. 使用 Git 開發 KDE
+
+Git 是一套自由開源的版本控制系統，可以有效率快速地對各種不同大小的專案做版本控制。它提供了許多工具，讓您編輯檔案，並與其他開發者所提出的變更合併。
+
+您可以在 http://git-scm.com 裡找到更多 git 的資訊（也可以下載）。
+
+
+Git 的基本知識
+
+
+將您的變更提到 git
+有幾個步驟。您必須仔細走過所有步驟，才能將變更正確地儲存進去。通常 git
+的開發模式中，開始的時候您必須從遠端的主目錄中將代碼複製（clone）一份過來。接下來：
+
+* 建立並編輯檔案。
+執行 git add 告訴 git
+您建立或編輯了某些檔案。這些已被變更的檔案會進入一種特別的狀態叫做 staging
+area。它們變更的部份都尚未進入本地端或遠端的主目錄中。
+
+* 執行 git commit 來將您所做的變更存到本地端的主目錄。
+稍後我們會展示一個範例。
+您不需要去強記不同的完整 git 位址才能做 pull 或 push
+的動作。我們建議您可以手動在您的 git 使用者設定（~/.gitconfig）中加入：
+
+[url "git://anongit.kde.org/"]
+    insteadOf = kde:
+[url "git@git.kde.org:"] 
+    pushInsteadOf = kde: 
+
+
+複製主目錄內容
+
+設定完您的 ~/.gitconfig 後，您就可以用以下的指令來將源碼從主目錄中複製過來：
+
+git clone kde:project_name
+
+project_name 是您要貢獻的專案名稱。例如，您要提交修補檔給 kdelibs，那麼就輸入：
+
+git clone kde:kdelibs
+
+
+將遠端變更合併過來（Pull）
+
+若您已經複製過遠端主目錄，您可以用以下的指令將遠端原始主目錄中的變更更新一份到本地端來：
+
+git pull 
+
+
+使用分支
+
+Git 支援分支的概念。要開發一個 KDE 開發平台專案上的新功能，您可以先將原始專案分支出來做開發。以下的指令可以用於建立一個新的分支：
+
+git checkout -b feature_name
+
+
+例如：
+
+git checkout -b myFeature
+
+
+接著您可以用以下的指令來切換到不同的分支：
+
+git checkout myFeature
+
+每個 git 專案都有一個固定的主分支叫 master。通常，在經過各種不同環境的測試之後，專案領導者非常確定修補或新功能是穩定且正確的，才會將修補或新功能加入主分支中。
+
+
+追蹤遠端的分支
+git 中有兩種型態的分支：本地端與遠端。遠端分支是存放在遠端主目錄中的分支。您可以用以下的指令來追蹤遠端的分支：
+
+git checkout --track remote_repository:remote_branch
+
+
+例如，要取出 KDE 4.7 的分支：
+
+git checkout --track origin:KDE/4.7
+
+
+提交您的工作成果
+
+在將任何修改送回 KDE 之前，您需要一個 KDE 身份(identity) 與一個開發者帳號。請到 http://identity.kde.org/ 註冊您的帳號。您的帳號名稱通常幾乎就是您的姓；不要試著去破壞這個規則。有經驗的開發者可以有提交的權限，不過這不在此書的範圍內。
+
+要產生一個差異比較檔，請執行：
+
+git diff
+
+以下指令可以把差異轉成一個修補檔：
+
+git diff > my_patch.patch 
+
+要提交您的工作成果，您要先將它們加入到 staging area 中：
+
+git add fileName1 fileName2
+
+然後提交到您本地端的主目錄：
+
+git commit
+
+
+上面的指令會開啟一個文字編輯器，您可以輸入提交的修改紀錄。
+
+
+將您的變更提交到 KDE 主目錄
+
+您可以將您的修補檔送到 KDE Review Board https://git.reviewboard.kde.org/
+。您可以用您的 KDE 身份帳號登入後將您的修補提交在該站上的某個專案中。
+
+您也可以直接將修補檔用 post review 的方式送到 review board 中。做法寫在這裡：
+
+http://community.kde.org/Sysadmin/GitKdeOrgManual#Using_Review_Board_and_post-review
+
+
+找出並克服問題
+
+任何跟 KDE 開發平台的 git 有關的問題，您都可以在以下的 irc 頻道中尋求協助：
+
+#kde-sysadmin
+#kde-git
+
+以上兩個頻道都在 irc.freenode.net 中。
+
+您可以在 http://techbase.kde.org/Development/Git 中找到更多關於使用 git 做 KDE
+平台開發的資訊。
+
+
+
