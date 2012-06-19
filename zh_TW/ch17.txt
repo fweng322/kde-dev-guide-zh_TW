@@ -1,0 +1,277 @@
+
+17. 一般字彙解釋
+
+
+A
+Accessibility (a11y，無障礙): 讓所有人，包括身心障礙者都能使用此程式的能力。
+
+Akonadi: KDE 上的一種可擴充，跨桌面儲存的服務，為個人資料管理（Personal Information Mangement, PIM）所設計。它提供同時讀、寫、查詢的功能。它也提供桌面物件辨識與取得的功能。
+
+Akregator: KDE 裡一套開放源碼的 feed 閱讀器，支援 RSS 與 Atom feed 格式。Feed 可以依分類排序，並且在資料庫中可以做漸進式搜尋標題。
+
+Algorithm (演算法): 用於計算、資料處理、自動推論的步驟程序。
+
+Amarok: KDE 上的一套音樂管理程式，標語為：Rediscover Your Music。核心的功能包括獨一的內文瀏覽器，整合維基百科搜尋，歌詞下載，協助使用者找到新的音樂，並且找出更多樂趣。 
+
+Application programming interface (API，應用程式介面): 一組特定的程式規則與規格，讓軟體可以遵循並彼此聯繫。它的作用就是提供在不同的軟體程式間互動的方法，類似使用者透過使用者介面與電腦程式互動的概念。
+
+apidox: API 的文件。
+
+Applet: 用 Java 寫成的程式，可以嵌在另一個環境，如網頁當中。
+
+B
+
+Backtrace (回溯追蹤): 也稱為堆疊回溯追蹤 (stack backtrace), 堆疊追蹤 (stack trace) 或是堆疊追蹤回溯 (stack traceback)。它是一份在當下時間點程式執行到哪一個點，以及目前的堆疊框架 (stack frame) 的報告。使用 KDE 軟體時，若是遇到崩潰，Dr. Konqi 會出現並提供回溯追蹤。另外，GDB 也可以用於取得回溯追蹤。
+
+Bot: 一種軟體應用程式，跑在網際網路或 IRC 頻道中，執行一些自動化的工作。
+
+Bug: 指程式或系統的錯誤，缺失，問題。通常程式或系統有 Bug 可能會出現不正確或未預期中的結果，或是做出非預期中的行為。
+
+Bug Squad: 追蹤使用者回報的 KDE 軟體的問題的團隊。
+
+Bugzilla: 一套使用網頁介面的錯誤追蹤系統與測試工具，為 KDE 社群所使用。
+
+Build (編譯): 軟體編譯 (software build) 的簡稱，通常指將程式源碼變成系統軟體的過程或結果。軟體編譯中最重要的步驟是編譯 (compilation)，也就是將程式源碼變成可執行檔的過程。
+
+Build system (編譯系統):
+將軟體開發者每天在做的各種工作，如編譯源碼變成可執行檔，執行測試，將代碼部署到產品系統中，或是建立文件與釋出通告等，做成文稿或自動化的軟體工具。
+
+C
+
+Channel, IRC channel (IRC 頻道): IRC 中的聊天室，通常是一個可以詢問問題的地方。一般來說，需要尋求協助的話，不要在頻道內直接抓個人就問，這樣很不禮貌。您應該先直接發言詢問有沒有人可以幫忙。
+
+CMake: 一套開放源碼的編譯系統。開發者只要將規格寫在文字檔中，就可以自動化編譯、測試與包裝軟體。
+
+Code: 程式源碼。
+
+Commit (提交): 將變更儲存進主目錄。
+
+Compile (編譯): 用編譯器 (compiler) 處理源碼，編成執行代碼。此外也是程式或作業系統紀錄的訊息的目的地，讓管理者或開發者可以檢視這些訊息。
+
+Console (主控台): 命令列的介面(CLI)。
+
+C++: KDE 軟體主要使用的程式語言。
+
+D
+
+Debugger (除錯器): 一種軟體，用於測試與尋找其他程式裡的問題。
+
+Desktop (桌面): 在圖形計算領域珠，桌面環境 (Desktop Environment, DE) 通常是指現代的個人電腦上所出現的圖形使用者介面所組合成的一套系統環境。目前最受歡迎的 Linux 桌面包括 KDE 工作空間與 GNOME。
+
+Dependency (相依性): 編譯或執行您的應用程式前要先安裝的套件或軟體。
+
+Diff:
+一個用於比較檔案的工具軟體，可以輸出兩個檔案間的差異處。此外也指這種工具軟體的輸出，又稱為修補 (patch)，patch 檔可以透過 Unix 上的 patch 程式來套用差異處。
+
+digiKam: 在 KDE 平台上開發的一套影像組織與編輯軟體。它可以在幾乎所有桌面環境與視窗管理員上執行，支援所有主要的影像格式，也可以依目錄分類相簿，或是依日期、時間、標籤等組織動態相簿。使用者也可以在影像上加上標題或評分，搜尋與儲存搜尋條件。此外還提供外掛程式，可以將相簿匯出到 23hq，Facebook，Flickr，Gallery2，Google Earth 的 KML 檔，SmugMug，Piwigo，與 Simpleviewer 等地方，或是將它們燒到光碟上，或是建立一個網頁收藏。
+
+Distributed repository (分散式主目錄): 相對於集中式的主從架構系統，分散式主目錄是一種點對點的方式，與大家一起分享與維護程式代碼。集中式的主從架構系統中，客戶端必須與伺服器端同步。但是在分散式的架構中，每個點的工作複本都是一個獨立的主目錄，經由信任網結合在一起。
+
+Distribution (套件，Distro): 將一群挑選過的軟體套件結合在一起，並與作業系統結合成一個系統套件。通常 GNU/Linux 特別常用這種方式。
+
+Docs: 文件，是開發過程中的一個重要基礎。
+
+E
+
+EBN (English Breakfast Network): 一個用於 KDE API 文件確認、使用者文件確認、程式源碼檢查、冥想、觀星、泡茶用的站台。
+
+Eclipse: 一套軟體整合開發環境 (IDE)，支援多種程式語言與外掛程式。它大部份是以 Java 寫成，可以用來開發 Java，不過加上不同的外掛程式之後，可以支援 Ada, C, C++, COBOL, Perl, PHP, Python, R, Ruby (包括 RoR), Scala, Clojure, Groovy, 與 Scheme 等程式語言。
+
+Environment (環境): 設定文稿與 bash 指令的集合，提供編譯 KDE 軟體時的建議設定。
+
+e.V. (Eingetragener Verein): 在德國的一種協會組織。KDE e.V. 是有註冊過的非營利組織，代表 KDE 社群處理法律與財務等事情。
+
+F
+
+Forum: An online discussion site where people can hold conversations by posting messages. They differ from chat rooms in that messages are archived. A discussion forum is hierarchical or tree-like in structure: a forum can contain a number of subforums, each of which may have several topics. Within a forum's topic, each new discussion started is called a thread, and can be replied to by anyone who wishes to.
+
+FOSS: Free and open-source software (F/OSS, FOSS) or free/libre/open-source software (FLOSS, FL/OSS) is software that is liberally licensed to grant users the right to use, study, share, change, and improve its design through access to its source code.
+
+Framework: An abstraction in which software providing generic functionality can be selectively changed by user code, thus providing application specific software. It is a collection of software libraries providing a defined application programming interface (API).
+
+Frameworks: Beginning with KDE Frameworks 5.0, KDE has a roadmap for the next major releast of KDE's libraries and runtime requirements, with an emphasis is on modularity, dependency clarity, simplification and increasing quality.
+
+Freenode: An IRC network used to discuss peer-directed projects.
+
+G
+
+GDB: GNU Debugger, usually called just GDB and named gdb as an executable file. This is the standard debugger for the GNU software system.
+
+Git: a distributed revision control system with an emphasis on speed and support for multiple branches shared among many developers. Every Git working directory is a full-fledged repository with complete history and full revision tracking capabilities, not dependent on network access or a central server. Free software distributed as GPL v.2.
+
+Gluon: a way of creating and playing games, and a means for players and makers of games to get together and talk about their shared interest. You can use the powerful Gluon Creator to build the games, interact with other makers and players of games on the GamingFreedom.org network site, and play them on any of the many supported platforms with one of the Gluon Player applications.
+
+GPL: The GNU General Public License is a free, copyleft license for software and other kinds of works.
+
+H
+
+I
+
+Integrated development environment (IDE): a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, a compiler and/or an interpreter, build automation tool, and a debugger. (Also known as integrated design environment, integrated debugging environment, or interactive development environment.) 
+
+Internationalization (i18n): The insertion of constructs that make it easy to change the interface and language of a program for different cultures and countries (see also Localization).
+
+Internet Relay Chat (IRC): A text-based real-time communication tool. KDE channels are on irc://irc.freenode.net.
+
+J
+
+K
+
+Kate: a text editor included in the KDE SC. The name Kate is an acronym for KDE Advanced Text Editor.
+
+KDE PIM: KDE Personal Information Management, such as Kontact, KMail, KOrganizer, etc. Also, a work group within the larger KDE SC project that develops the individual Kontact applications in a coordinated way.
+
+KDE SC: KDE Software Compilation, the sources for the KDE distribution
+
+KMail: KDE email client that supports folders, filtering, viewing HTML mail, and international character sets. It can handle IMAP, IMAP IDLE, dIMAP, POP3, and local mailboxes for incoming mail. It can send mail via SMTP or sendmail.
+
+Konqueror: KDE web browser and file manager. Provides file-viewer functionality to a wide variety of things: local files, files on a remote ftp server and files in a disk image.
+
+Konsole: a free terminal emulator that is part of KDE SC. The KDE applications Konqueror, Krusader, Kate, Konversation, Dolphin and KDevelop use Konsole to provide embedded terminal functionality.
+
+Kontact: KDE's personal information manager and groupware software suite. Supports calendars, contacts, notes, to-do lists, news, and email. Uses KParts to embed the various applications (KMail, KAddressBook, Akregator, etc.) into the container application.
+
+Kopete: KDE's multi-protocol, free software instant messaging client.
+
+Kpackage Kit: KDE's frontend for PackageKit. PackageKit is an open source suite of software applications designed to provide a consistent and high-level front end for a number of different package management systems.
+
+Kparts: component framework for the KDE SC. For example, Konsole is available as a KPart and is used in applications like Konqueror and Kate.
+
+Konversation: user-friendly Internet Relay Chat (IRC) client built on the KDE Platform.
+
+KWin: the window manager that is an integral part of the KDE SC. It can also be used on its own or with other desktop environments.
+
+L
+
+LAMP: acronym for a software bundle or platform consisting of Linux, Apache, MySQL and Perl/PHP/Python.
+
+Licensing: legal instruments (usually by way of contract law) that govern the usage or redistribution of software. All software is copyright protected, except material in the public domain.
+
+Localization (l10n): making the changes required to display a program's interface using the language and conventions of a particular country (see also Internationalization).
+
+M
+
+Mailing list: A collection of names and addresses used by an individual or an organization to send material to multiple recipients. Often extended to include the people subscribed to such a list, so the group of subscribers is referred to as the mailing list, or simply the list.
+
+N
+
+Nepomuk: KDE workspaces project that supports annotations, indexing, search, and linking.
+
+Nick: a user's screen name or online handle.
+
+Nightly: a neutral build that reflects the current state of the source code checked into the version control system by the developers, as built in a neutral environment (that is, in an environment not used for development). A nightly build is a neutral build that takes place automatically, typically each night. Project Neon is such a project for KDE.
+
+O
+
+Object-oriented programming (OOP): a programming paradigm using objects – data structures consisting of data fields and methods together with their interactions – to design applications and computer programs.
+
+Ocular: KDE's universal document viewer based on KPDF.
+
+Operators (IRCops): Channel operators have powers over the IRC channel, including moderating or kicking out disruptive users. IRCops or sysops control the IRC server, so they control the channels as well as having control over who can participate. On most systems, ops are identified with a symbol next to their nicks, but Freenode discourages ops from appearing as such unless they have work to do in the channel.
+
+P 
+
+Package, packaging: There are two types of packages that may be downloaded from the KDE FTP site: binary packages (rpms, debs, and the like) and source packages. Binary packages are compiled ("runnable") versions of KDE SC that are built to run on a specific OS or distribution. Source packages are the raw code that makes up KDE SC, and need to be compiled before they can be used. KDE software packages available from the distributions may be slightly different from the pure KDE source packages.
+
+Pastebin: a web application that allows users to upload snippets of text, usually samples of source code, for public viewing.Use is encouraged in IRC channels, where pasting large amounts of text is considered bad etiquette. KDE's pastebin is hosted at http://paste.kde.org
+
+Patch: software designed to fix problems with, or update a computer program or its supporting data. This includes fixing security vulnerabilities and other bugs, and improving the usability or performance.
+
+Phonon: multimedia API provided by Qt; the standard abstraction for handling multimedia streams within the KDE SC.
+
+Plasma Active: the latest initiative of the Plasma team, bringing KDE functionality to mobile devices.
+
+Plasma: KDE SC framework to facilitate the creation of widgets. These cover interactive application launchers, window and task managers, and more.
+
+Plasmoid: widget in the Plasma Desktop environment.
+
+Post-mortem debugging: Debugging after a crash report has been filed.
+
+Q
+
+QtCreator: An integrated, cross-platform IDE for C++ and JavaScript that is part of the Qt SDK.
+
+Qt: Cross-platform application framework that is widely used for developing application software with a graphical user interface (GUI).
+
+Quassel: cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical.
+
+R
+
+Rekonq: KDE web browser based on WebKit.
+
+Reviewboard: web-based collaborative code review tool, available as free software under the MIT License. An alternative to Rietveld and Gerrit, Review Board integrates with Bazaar, ClearCase, CVS, Git, Mercurial, Perforce, and Subversion.
+
+Review: systematic examination (often as peer review) of computer source code. It is intended to find and fix mistakes overlooked in the initial development phase, improving both the overall quality of software and the developers' skills.
+
+S
+
+Script: small program written for a command interpreter or another scripting language.
+
+Server: computer program running to serve the requests of other programs, the clients.
+
+Solid: device integration framework for KDE SC. It functions on similar principles to KDE's multimedia pillar Phonon; rather than managing hardware on its own, instead it makes existing solutions accessible through a single API.
+
+Source: Human-readable instructions in a programming language, to be transformed into machine instructions by a compiler, interpreter, assembler or other such system.
+
+Sprint: face-to-face meeting of team members who usually work together remotely.
+
+Suite: collection of computer programs, usually application software and programming software of related functionality, often sharing a more-or-less common user interface and some ability to smoothly exchange data with each other.
+
+Summit: in KDE and FOSS, a large meeting for members who usually work remotely. Team sprints may take place before, during and after a large summit.
+
+SVN (Subversion): A software versioning and a revision control system distributed under a free license, part of the Apache Foundation.
+
+T
+
+Techbase: KDE's developer documentation wiki.
+
+Telepathy: A realtime communication framework that supports instant messaging, VoIP, and collaboration.
+
+Terminal: interface for serial entry and display of textual data. See also console.
+
+Testing: investigation conducted to provide stakeholders with information about the quality of the product or service under test.
+
+Text editor: program used for editing plain text files.
+
+Toolchain: set of programming tools that are used to create a product (typically another computer program or system of programs). The tools may be used in a chain, so that the output of each tool becomes the input for the next, but the term is used widely to refer to any set of linked development tools.
+
+Toolkit: set of basic building units for graphical user interfaces. KDE SC uses the Qt toolkit.
+
+Trunk: the unnamed branch (version) of a file tree under revision control. The trunk (or master) is usually meant to be the base of a project on which development progresses.
+
+U
+
+Unit tests: method by which individual units of source code are tested to determine if they are fit for use. A unit is the smallest testable part of an application. In object-oriented programming a unit is usually an interface, such as a class.
+
+Usability: ease of use and learnability of a human-made object, in this case, our software.
+
+Userbase: KDE's user documentation wiki.
+
+V
+
+Valgrind: GPL licensed programming tool for memory debugging, memory leak detection, and profiling. The name valgrind comes from the main entrance to Valhalla in Norse mythology.
+
+Variable: symbolic name given to some known or unknown quantity or information, for the purpose of allowing the name to be used independently of the information it represents. A variable name in computer source code is usually associated with a data storage location and thus also its contents, and these may change during the course of program execution.
+
+Version control: Revision control, also known as version control and source control (and an aspect of software configuration management or SCM), is the management of changes to documents, programs, and other information stored as computer files. It is most commonly used in software development, where a team of people may change the same files. Changes are usually identified by a number or letter code, termed the "revision number", "revision level", or simply "revision".
+
+W
+
+Widget: element of a graphical user interface (GUI) that displays an information arrangement changeable by the user, such as a window or a text box. The defining characteristic of a widget is to provide a single interaction point for the direct manipulation of a given kind of data. In other words, widgets are basic visual building blocks which, combined in an application, hold all the data processed by the application and the available interactions on this data.
+
+Wiki: website that allows the creation and editing of any number of interlinked web pages via a web browser using a simplified markup language or a WYSIWYG text editor. Wikis are typically powered by wiki software and are often used collaboratively by multiple users. 
+
+Word processor: computer application used for the production (including composition, editing, formatting, and possibly printing) of any sort of printable material.
+
+X
+
+ X, X window system: computer software system and network protocol that provides a basis for graphical user interfaces (GUIs) and rich input device capability for networked computers. It creates a hardware abstraction layer where software is written to use a generalized set of commands, allowing for device independence and reuse of programs on any computer that implements X. X.Org serves as the canonical implementation of X, and is what KDE SC uses.
+
+Y
+
+Yakuake: drop-down terminal emulator based on KDE Konsole technology.
+
+Z
+
+Z-machine: virtual machine used by Infocom for its text adventure games. Kwest is a Z-machine interpreter for KDE.
+
