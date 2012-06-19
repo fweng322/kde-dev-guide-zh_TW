@@ -114,58 +114,86 @@ end module
 
 在此範例中，我選擇 "master" 分支，因為它是預設的 git 分支。
 
+接著不管什麼時候，只要您打算編譯 konversation，kdesrc-build 都會使用 git 而不是用 svn。
 
-Now whenever you build konversation, kdesrc-build will use git instead of Subversion.
 
-Useful kdesrc-build commands
+有用的 kdesrc-build 指令
 
-kdesrc-build is driven from the command line, so here's a guide to some of the more useful command line options:
-Option	Effect
---pretend (-p)	This option is like a dry run. kdesrc-build will process the options and its configuration like normal, and run through the build as normal, but instead of downloading or running the build it will just print messages about what it would have done. You should always run with -p before running the script for real, to make sure it is doing what you expect.
---nosvn (--no-src)	This option skips the source code update step. This is useful if you're running kdesrc-build again soon after a previous update and don't want to wait just to find out there were no changes.
---refresh-build	This option causes kdesrc-build to delete the current build information for the modules given on the command line and build them again from scratch. This option adds a lot of time but offers the best chance of a successful build.
-Any non-option arguments on the command line are assumed to be modules to build (and are built in the order provided on the command line). If no modules are specified, all of the modules listed in the ~/.kdesrc-buildrc are built, in the order listed in the file.
-Building the KDE SC
+kdesrc-build 是一個從命令列執行的程式，所以這裡有一些命令列選項可以用：
 
-We're almost there. If you're happy with your settings, it's time to test out kdesrc-build. In theory things are as simple as running kdesrc-build and then coming back later.
+選項   作用
+--pretend (-p)	這個選項只是做個模擬。kdesrc-build
+照常會處理所有的選項與設定，跑過整個編譯流程，但是不會真的下載或執行編譯的指令，而只是印出它會做的事情的訊息。您在真正執行此編譯文稿之前，應該先跑一遍模擬，確定文稿會照您想做的事情去做。
+--nosvn (--no-src)	這個選項會跳過源碼更新的程序。如果您才剛更新過，不想讓
+kdesrc-build 再跑一次尋找更新的流程，就可以使用這個選項。
+--refresh-build		這個選項會讓 kdesrc-build 刪掉目前的編譯資訊，然後從頭再編一次。它會花更多的時間，但是會整個從頭來過，避免先前出現的問題干擾。
+
+後面沒有帶選項的參數就會被認為是要編譯的模組（並且會依命令列所給的順序編譯）。如果沒有指定任何模組，則會依照順序編譯在 ~/.kdesrc-buildrc 中所列出的所有模組。
+
+
+編譯 KDE 軟體集
+
+我們快完成了。如果您的設定都沒問題，那麼就可以來試試 kdesrc-build。理論上很簡單，應該就是跑 kdesrc-build 然後等等再回來看結果。
+
 cd ~/kdesrc
 ./kdesrc-build
-You may want to test it by building just qt-copy first, however.
+
+您可以先用 qt-copy 試試：
+
 cd ~/kdesrc
 ./kdesrc-build qt-copy
-If the build failed (kdesrc-build will error out with a nice bright red error message), there are several possible things to check for:
-You may be missing a key piece of required software (such as a development library)
-The KDE SC code being compiled may be broken in some fashion so it won't build. This is commonly due to newly committed code that worked on the developer's machine, or occasionally because it is Monday (when incompatible changes are permitted to kdelibs).
-~/.kdesrc-buildrc may not be set up properly. You may be trying to install to a directory that you do not have permission to access, for instance, or you may have specified a system qtdir that does not exist.
-The module may depend on a newer version of qt-copy or kdelibs (or another module). In this case you'll have to run kdesrc-build to update the out-of-date module first.
 
-How do you find out what the error was? The output of the failing command will be in the log directory. By default, all log output is in the log subdirectory of the KDE SC source directory. The log directory is laid out like this: log/date-run/module/output-file.log. To simplify finding the appropriate file, a couple of symlinks are created:
+如果編譯失敗（kdesrc-build 會顯示紅色的錯誤訊息），則您應該先檢查一些東西：
+
+1. 是否安裝了所有需要的軟體？（如開發用函式庫）
+2. 要編譯的 KDE SC 的源碼可能有問題。通常發生的原因是新提交的源碼在開發者本身的電腦沒問題，但是在您的電腦則未必。另外也有可能是因為在藍色星期一...（因為星期一 kdelibs 允許不相容的變更。）
+3. ~/.kdesrc-buildrc 可能沒有正確設定。您可能把它安裝到您沒有存取權限的目錄中，或是您所指定的系統 qtdir 不存在。
+4. 模組可能相依於更新版本的 qt-copy 或 kdelibs 或其它的模組。這種狀況下您要先跑過 kdesrc-build 的更新流程來將必要的模組更新。
+
+您要怎麼找出錯誤在哪？執行失敗的指令會放在 log
+目錄中。預設所有的輸出紀錄都會放在 KDE SC 源碼目錄中的 log 子目錄。log
+子目錄中的樹狀結構是：log/<執行日期>/<模組名稱>/<輸出檔案>.log。為了方便您找到適當的檔案，也建立了一些符號連結：
+
 log/latest
-Contains the debugging output from the last time kdesrc-build ran (--pretend does not affect this).
+
+這個檔包含了最後一次 kdesrc-build 執行時的除錯輸出（--pretend 不會影響此行為）。
+
 log/latest/module/error.log
-Contains the debugging output for the command that caused the build of the specified module to fail.
-For instance, if qt-copy just failed to build, you could read the output like this:
+
+包含了造成編譯特定模組失敗的除錯輸出。
+例如，若是 qt-copy 編譯失敗，您可以在以下的地方找到除錯輸出：
+
 cd ~/kdesrc
 kwrite log/latest/qt-copy/error.log
-Replace kwrite with your preferred editor. Hopefully the output can guide you to resolving the problem. For instance, if the failure is CMake output saying you're missing a library, install that library and try again. For link errors, you can try running with the --refresh-build on the module (or if that doesn't work, on required libraries like qt-copy and kdelibs).
-If you're stumped by the error, you may want to wait a day and try updating again, and hope that the reason for the error has been fixed. You can also try mailing the kde-devel mailing list to see whether others know about the problem or have had similar issues.
-Running your new KDE installation
 
-Assuming you got enough of the modules to build and install to have a working KDE SC installation, you'll still need to set up your environment correctly to run it. kdesrc-build doesn't help you out here (yet), so you should follow the instructions at:
+當然，您可以用其它的編輯器來取代
+kwrite。希望這些除錯用的輸出可以協助您找到問題所在。例如，若是失敗的原因是
+CMake
+告訴您少了某個函式庫，那麼您就可以安裝該函式庫然後再試一次。若是連結錯誤，您可以用 --refresh-build 選項來再一次編譯該模組（若是這樣還不能成功，則試著用該選項來編譯需要的相依模組，如 qt-copy 與 kdelibs。）
+
+若是您沒有辦法解決錯誤，您也可以試著等個一天，再更新看看問題會不會自動消失（無誤）。您也可以試著向 kde-devel 郵件論壇發信詢問是否有其他人遇到相同的問題，或是知道解法。
+
+
+安裝您編出來的 KDE 並執行
+
+假設您已經編譯並安裝了執行整個 KDE SC 所需要的模組，您仍然需要正確設定您的環境才能成功執行。kdesrc-build （還）不會幫您把這些環境設好，所以請您參考底下的說明：
 
 http://techbase.kde.org/Getting_Started/Using_an_IDE_with_KDE4 
 
-Make sure to use the same paths as the ones you defined in ~/.kdesrc-buildrc. For the KDEDIRS and KDEDIR variables, use the setting of the "prefix" option (in the global section). For the QTDIR variable, use the setting of the "qtdir" option.
+請確定您使用了跟 ~/.kdesrc-buildrc 中定義相同的路徑。KDEDIRS 與 KDEDIR 變數，您應該使用 .kdesrc-buildrc 中全域設定的 "prefix" 選項的值。QTDIR 應該使用 "qtdir" 選項的值。
 
-Keeping your KDE installation up to date
-Keeping your KDE installation up to date is as simple as running kdesrc-build again. Every build has these phases:
 
-Update the source code for all modules being built.
-Build and then install all the modules.
-Old build directories are not deleted by default, so the build after a small update will not normally take as long as the initial build of a module. This is called "incremental make". However it may be necessary at times to perform a full rebuild, due to inconsistencies between the build directory configuration and changes to the source directory. You can use the --refresh-build option to force a full rebuild.
+如何保持您的 KDE 安裝為最新版本
 
-For more information on how to take advantage of kdesrc-build, see the documentation at: 
+很簡單，只要再執行一次 kdesrc-build 即可。每次編譯時都會經過以下步驟：
+
+1. 更新所有要編譯的模組的源碼。
+2. 編譯並安裝所有的模組。
+
+預設不會刪除舊的編譯目錄，所以如果只有小更新，通常再編譯不會花很久的時間。這稱為「漸進式編譯」（incremental make）。不過，有的時候您可能需要整個重新編譯，因為可能在編譯目錄中的設定與源碼的變更不相容。您可以用 --refresh-build 來強制整個重新編譯。
+
+如何好好利用 kdesrc-build，您可以參考以下的文件說明：
 
 http://kdesrc-build.kde.org/documentation/
 
-The site describes all of the module options and command line options available for kdesrc-build and gives tips on how to perform various useful tasks.
+這個站台也會說明 kdesrc-build 所使用的所有模組選項與命令列選項，並且告訴您如何執行不同的動作。
