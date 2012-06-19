@@ -83,25 +83,25 @@ e.V. (Eingetragener Verein): 在德國的一種協會組織。KDE e.V. 是有註
 
 F
 
-Forum: An online discussion site where people can hold conversations by posting messages. They differ from chat rooms in that messages are archived. A discussion forum is hierarchical or tree-like in structure: a forum can contain a number of subforums, each of which may have several topics. Within a forum's topic, each new discussion started is called a thread, and can be replied to by anyone who wishes to.
+Forum (論壇): 一種線上的討論站台，大家可以發文對話。這與聊天室不同的地方在於這些發出來的文可以歸檔保存。一個討論論壇通常會有類似樹狀的結構：它可以有許多子論壇，每一個子論壇有一個或數個主題。在子論壇中，每個啟始的新討論都叫一個討論串 (thread)，任何人想回覆都可以回覆。
 
-FOSS: Free and open-source software (F/OSS, FOSS) or free/libre/open-source software (FLOSS, FL/OSS) is software that is liberally licensed to grant users the right to use, study, share, change, and improve its design through access to its source code.
+FOSS Free and open-source software (F/OSS, FOSS) 或 free/libre/open-source software (FLOSS, FL/OSS): 自由授權的軟體。授權使用者可以透過開放出來的源碼自由使用、學習、分享、變更、改進它的設計等等。
 
-Framework: An abstraction in which software providing generic functionality can be selectively changed by user code, thus providing application specific software. It is a collection of software libraries providing a defined application programming interface (API).
+Framework: 一種抽象的概念。實際上它是提供應用程式介面 (API) 的軟體函式庫的集合。不過在此框架的概念中，軟體提供的功能可以由使用者寫程式來改變，產生自己的軟體。
 
-Frameworks: Beginning with KDE Frameworks 5.0, KDE has a roadmap for the next major releast of KDE's libraries and runtime requirements, with an emphasis is on modularity, dependency clarity, simplification and increasing quality.
+Frameworks: 從 KDE Frameworks 5.0 開始，KDE 都會有下一個主版的函式庫、執行需求的計劃，著重在模組化、釐清相依性、簡化與增進品質上。
 
-Freenode: An IRC network used to discuss peer-directed projects.
+Freenode: 一個 IRC 的網路，常用來討論各種專案。
 
 G
 
-GDB: GNU Debugger, usually called just GDB and named gdb as an executable file. This is the standard debugger for the GNU software system.
+GDB: GNU Debugger, GNU 軟體系統裡的標準除錯器。
 
-Git: a distributed revision control system with an emphasis on speed and support for multiple branches shared among many developers. Every Git working directory is a full-fledged repository with complete history and full revision tracking capabilities, not dependent on network access or a central server. Free software distributed as GPL v.2.
+Git: 一套分散式的版本控制系統，強調快速與支援在許多開發者間分享多重分支。每個 Git 工作幕錄都是個全面性的主目錄，有自己完整的歷史紀錄與版本追蹤資訊，不必依賴網路存取或與中央伺服器同步。Git 是一套以 GPL v2 散布的自由軟體。
 
 Gluon: a way of creating and playing games, and a means for players and makers of games to get together and talk about their shared interest. You can use the powerful Gluon Creator to build the games, interact with other makers and players of games on the GamingFreedom.org network site, and play them on any of the many supported platforms with one of the Gluon Player applications.
 
-GPL: The GNU General Public License is a free, copyleft license for software and other kinds of works.
+GPL (GNU General Public License): 一種標榜自由的反版權（copyleft，又稱「著佐權」或「公共版權」。關於 copyleft 請參考 http://www.openfoundry.org/tw/glossary/736），用於軟體與其它相關工作上。
 
 H
 
