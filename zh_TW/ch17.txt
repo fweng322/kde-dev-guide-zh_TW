@@ -159,81 +159,81 @@ Nepomuk: KDE 工作空間中支援註記、索引、搜尋與連結的專案。
 
 Nick (暱稱): 使用者線上或螢幕上顯示的名稱。
 
-Nightly: a neutral build that reflects the current state of the source code checked into the version control system by the developers, as built in a neutral environment (that is, in an environment not used for development). A nightly build is a neutral build that takes place automatically, typically each night. Project Neon is such a project for KDE.
+Nightly: 每隔固定時間將版本控制系統中最新版本的源碼自動重新編譯的一種機制。這時間通常是每晚。編譯時必需在一個中性 (neutral) 的環境中，也就是說，不是用開發者所使用的環境。Neon 就是 KDE 用來做 nightly build 的專案。
 
 O
 
 Object-oriented programming (物件導向程式設計，OOP): 一種使用物件概念的程式設計方式。所謂的物件概念，就是在資料結構中包含了資料欄位與互動方法。
 
-Ocular: KDE's universal document viewer based on KPDF.
+*Okular: KDE 中的文件檢視器，從 KPDF 改過來的。
 
-Operators (IRCops): Channel operators have powers over the IRC channel, including moderating or kicking out disruptive users. IRCops or sysops control the IRC server, so they control the channels as well as having control over who can participate. On most systems, ops are identified with a symbol next to their nicks, but Freenode discourages ops from appearing as such unless they have work to do in the channel.
+Operators (IRCops): IRC 頻道的管理員，有管理頻道的權力，包括監控並將不當的使用者踢出頻道的權力。IRCops 或系統管理員可以控制 IRC 伺服器，決定誰可以加入頻道。在大部份的系統中，管理員的暱稱前面會加一個符號，不過 Freenode 通常不鼓勵管理員現身，除非他們有工作要進行。
 
 P 
 
-Package, packaging: There are two types of packages that may be downloaded from the KDE FTP site: binary packages (rpms, debs, and the like) and source packages. Binary packages are compiled ("runnable") versions of KDE SC that are built to run on a specific OS or distribution. Source packages are the raw code that makes up KDE SC, and need to be compiled before they can be used. KDE software packages available from the distributions may be slightly different from the pure KDE source packages.
+Package, packaging (套件，打包): 在 KDE 的 ftp 站上可以下載到兩種型態的套件：執行檔套件 (rpms, debs 等等) 以及源碼套件。執行檔套件是編譯過的，可執行的 KDE 軟體，可以在特定的作業系統或系統套件上執行。源碼套件就是軟體的源碼，需要編譯後才能使用。從各個系統套件庫所取得的 KDE 軟體套件會與純 KDE 源碼套件不太一樣。
 
-Pastebin: a web application that allows users to upload snippets of text, usually samples of source code, for public viewing.Use is encouraged in IRC channels, where pasting large amounts of text is considered bad etiquette. KDE's pastebin is hosted at http://paste.kde.org
+Pastebin: 一個網頁應用程式，讓使用者可以上傳文字片段，如源碼的範例，供大眾檢視。通常在 IRC 頻道內要請人檢視程式時，最好使用這種方式，因為在 IRC 頻道內貼上大量文字會被認為是惡意洗板。KDE 的 pastebin 在 http://paste.kde.org
 
-Patch: software designed to fix problems with, or update a computer program or its supporting data. This includes fixing security vulnerabilities and other bugs, and improving the usability or performance.
+Patch (修補檔): 電腦程式的更新，或是資料更新，或是指用於修正程式用的軟體。修補通常包括安全性更新或其他的問題，以便增進可用度或效能。
 
-Phonon: multimedia API provided by Qt; the standard abstraction for handling multimedia streams within the KDE SC.
+Phonon: Qt 所提供的多媒體程式介面，也是 KDE 軟體集中處理多媒體串流的標準概念。
 
-Plasma Active: the latest initiative of the Plasma team, bringing KDE functionality to mobile devices.
+Plasma Active: Plasma 團隊最新力作，讓 KDE 的各種功能可以在行動裝置上實現。
 
-Plasma: KDE SC framework to facilitate the creation of widgets. These cover interactive application launchers, window and task managers, and more.
+Plasma: KDE 軟體集的大框架，提供建立各種不同元件的架構。包括互動式應用程式啟動器，視窗與工作管理員等等。
 
-Plasmoid: widget in the Plasma Desktop environment.
+Plasmoid: Plasma 桌面環境中的元件稱為 Plasmoid。
 
-Post-mortem debugging: Debugging after a crash report has been filed.
+Post-mortem debugging: 用程式崩潰後所產生的報告來除錯的動作。
 
 Q
 
-QtCreator: An integrated, cross-platform IDE for C++ and JavaScript that is part of the Qt SDK.
+QtCreator: Qt SDK 裡的一個軟體，是一套為 C++ 與 JavaScript 設計的跨平台整合開發環境。
 
-Qt: Cross-platform application framework that is widely used for developing application software with a graphical user interface (GUI).
+Qt: 一個跨平台的應用程式框架，用於開發有圖形使用者介面的應用軟體。
 
-Quassel: cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical.
+Quassel: 一套跨平台、分散式的 IRC 客戶端程式。這表示一個或多個客戶端可以附加到中央核心，或從中央核心分離。很像是用 screen 跑文字介面的客戶端程式如 WeeChat，只不過是圖形介面。
 
 R
 
 Rekonq: KDE 中以 WebKit 做引擎的網頁瀏覽器。
 
-Reviewboard: web-based collaborative code review tool, available as free software under the MIT License. An alternative to Rietveld and Gerrit, Review Board integrates with Bazaar, ClearCase, CVS, Git, Mercurial, Perforce, and Subversion.
+Reviewboard: 一套網頁介面的程式修補檔查驗工具，是一套以 MIT 授權發布的自由軟體。它是除了 Rietveld 與 Gerrit 的另一套方案，它可以與 Bazaar、ClearCase、CVS、Git、Mercurial、Perforce 與 Subversion 整合。
 
-Review: systematic examination (often as peer review) of computer source code. It is intended to find and fix mistakes overlooked in the initial development phase, improving both the overall quality of software and the developers' skills.
+Review (查驗): 系統化地檢查程式源碼的動作。為的是在開發階段找出並修正錯誤，改進整體軟體品質並提升開發者的技能。
 
 S
 
-Script: 一種用文稿與言寫的小型程式，用命令直譯器 (command intepreter) 來解譯。
+Script (文稿): 一種用文稿語言寫的小型程式，用命令直譯器 (command intepreter) 來解譯。
 
-Server: computer program running to serve the requests of other programs, the clients.
+Server (伺服器): 用於處理其它程式 (客戶端) 所提出的請求的電腦程式。
 
-Solid: device integration framework for KDE SC. It functions on similar principles to KDE's multimedia pillar Phonon; rather than managing hardware on its own, instead it makes existing solutions accessible through a single API.
+Solid:  KDE 軟體集中的裝置整合框架。它的功能跟 KDE 的多媒體處理框架 Phonon 有點像，不過目的不是管理它自己的硬體，而是提供單一介面來存取硬體。
 
-Source: Human-readable instructions in a programming language, to be transformed into machine instructions by a compiler, interpreter, assembler or other such system.
+Source (源碼): 人類可讀的程式語言，經由編譯器、直譯器、組譯器或其它系統轉換成機器指令。
 
-Sprint: face-to-face meeting of team members who usually work together remotely.
+Sprint: 一群讓通常只在遠端合作開發的團隊成員見面的短期會議。
 
-Suite: collection of computer programs, usually application software and programming software of related functionality, often sharing a more-or-less common user interface and some ability to smoothly exchange data with each other.
+Suite: 電腦程式的集合，通常是將有相關功能的應用程式或軟體，提供一些共同的使用者介面與功能，讓彼此間可以平順地交換資料。
 
-Summit: in KDE and FOSS, a large meeting for members who usually work remotely. Team sprints may take place before, during and after a large summit.
+Summit: 讓 KDE 或其它自由軟體的開發者見面的大型會議。在此之前可能會先開小型會議 (sprint)，也可能經由 Summit 促成其它小型會議的產生。
 
-SVN (Subversion): A software versioning and a revision control system distributed under a free license, part of the Apache Foundation.
+SVN (Subversion): 一套自由授權散布的版本控制系統，是 Apache 基金會旗下的一個計畫。
 
 T
 
-Techbase: KDE's developer documentation wiki.
+Techbase: KDE 的開發者文件 wiki 站台。
 
-Telepathy: A realtime communication framework that supports instant messaging, VoIP, and collaboration.
+Telepathy: 一套即時通訊系統的框架，支援許多即時通訊、VoIP 等協定。
 
-Terminal: interface for serial entry and display of textual data. See also console.
+Terminal (終端機): 序列埠的介面，顯示文字資料用。請參考主控台 (console) 的說明。
 
 Testing: investigation conducted to provide stakeholders with information about the quality of the product or service under test.
 
-Text editor: program used for editing plain text files.
+Text editor (文字編輯器): 用於編輯純文字檔的程式。
 
-Toolchain: set of programming tools that are used to create a product (typically another computer program or system of programs). The tools may be used in a chain, so that the output of each tool becomes the input for the next, but the term is used widely to refer to any set of linked development tools.
+Toolchain (工具鍊): set of programming tools that are used to create a product (typically another computer program or system of programs). The tools may be used in a chain, so that the output of each tool becomes the input for the next, but the term is used widely to refer to any set of linked development tools.
 
 Toolkit: set of basic building units for graphical user interfaces. KDE SC uses the Qt toolkit.
 
