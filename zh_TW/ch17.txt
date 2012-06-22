@@ -99,7 +99,7 @@ GDB: GNU Debugger, GNU 軟體系統裡的標準除錯器。
 
 Git: 一套分散式的版本控制系統，強調快速與支援在許多開發者間分享多重分支。每個 Git 工作幕錄都是個全面性的主目錄，有自己完整的歷史紀錄與版本追蹤資訊，不必依賴網路存取或與中央伺服器同步。Git 是一套以 GPL v2 散布的自由軟體。
 
-Gluon: a way of creating and playing games, and a means for players and makers of games to get together and talk about their shared interest. You can use the powerful Gluon Creator to build the games, interact with other makers and players of games on the GamingFreedom.org network site, and play them on any of the many supported platforms with one of the Gluon Player applications.
+Gluon: 一種建立與玩遊戲的方式，也是一個把遊戲的玩家與創作者集合在一起討論他們共同興趣的平台。您可以用 Gluon Creator 來建立遊戲，在 GamingFreedom.org 網站上與其他的創作者與玩家互動，並在許多支援的平台上玩 Gluon Player 的應用程式。
 
 GPL (GNU General Public License): 一種標榜自由的反版權（copyleft，又稱「著佐權」或「公共版權」。關於 copyleft 請參考 http://www.openfoundry.org/tw/glossary/736），用於軟體與其它相關工作上。
 
@@ -107,63 +107,63 @@ H
 
 I
 
-Integrated development environment (IDE): a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, a compiler and/or an interpreter, build automation tool, and a debugger. (Also known as integrated design environment, integrated debugging environment, or interactive development environment.) 
+Integrated development environment (整合開發環境，IDE): 一種軟體應用程式，提供各式各樣的功能，方便電腦程式設計師開發軟體。通常一個整合開發環境包含了源碼編輯器、編譯器或直譯器，自動編譯工具以及除錯器等元件。（也稱為整合設計環境 integrated design environment，整合除錯環境 integrated debugging environment 或互動式開發環境 interactive development environment。）
 
-Internationalization (i18n): The insertion of constructs that make it easy to change the interface and language of a program for different cultures and countries (see also Localization).
+Internationalization (國際化，i18n): 一種讓程式可以容易變更不同文化與國家的介面語言的架構。請參考 Localization 的說明。
 
-Internet Relay Chat (IRC): A text-based real-time communication tool. KDE channels are on irc://irc.freenode.net.
+Internet Relay Chat (IRC): 一種文字介面的即時通訊工具。KDE 的頻道在：irc://irc.freenode.net。
 
 J
 
 K
 
-Kate: a text editor included in the KDE SC. The name Kate is an acronym for KDE Advanced Text Editor.
+Kate: 在 KDE 軟體集中提供的文字編輯器。Kate 是 KDE Advanced Text Editor 的頭字語。
 
-KDE PIM: KDE Personal Information Management, such as Kontact, KMail, KOrganizer, etc. Also, a work group within the larger KDE SC project that develops the individual Kontact applications in a coordinated way.
+KDE PIM (KDE Personal Information Management，KDE 個人資訊管理）: KDE 中的一個模組，包含了 Kontact, KMail, KOrganizer 等等。另外，它也表示在整個 KDE 軟體集專案中的一個工作團隊，以合作的方式負責開發個別的 Kontact 應用程式。
 
-KDE SC: KDE Software Compilation, the sources for the KDE distribution
+KDE SC (KDE Software Compilation, KDE 軟體集）：KDE 的發行套件。
 
-KMail: KDE email client that supports folders, filtering, viewing HTML mail, and international character sets. It can handle IMAP, IMAP IDLE, dIMAP, POP3, and local mailboxes for incoming mail. It can send mail via SMTP or sendmail.
+KMail: KDE 的電子郵件客戶端程式，支援資料夾、信件過濾、檢視 HTML 郵件，國際字元集等等。它可以處理 IMAP, IMAP IDLE, dIMAP, POP3, 以及本地端的郵箱檔。送信的部份則支援透過 SMTP 與 sendmail 傳送信件。
 
-Konqueror: KDE web browser and file manager. Provides file-viewer functionality to a wide variety of things: local files, files on a remote ftp server and files in a disk image.
+Konqueror: KDE 裡的網頁瀏覽器與檔案管理員。提供檢視本地端檔案、遠端 ftp 伺服器與磁碟映像檔中的檔案的功能。
 
-Konsole: a free terminal emulator that is part of KDE SC. The KDE applications Konqueror, Krusader, Kate, Konversation, Dolphin and KDevelop use Konsole to provide embedded terminal functionality.
+Konsole: KDE 軟體集中的一套終端模擬器。KDE 的應用程式，如 Konqueror, Krusader, Kate, Konversation, Dolphin 與 KDevelop 都將 Konsole 嵌入它們自己中。
 
-Kontact: KDE's personal information manager and groupware software suite. Supports calendars, contacts, notes, to-do lists, news, and email. Uses KParts to embed the various applications (KMail, KAddressBook, Akregator, etc.) into the container application.
+Kontact: KDE 的個人資訊管理員與群組軟體套件。支援行事曆、聯絡人通訊錄、備忘錄、待辦事項清單、新聞與郵件功能。它也可以使用 KParts 來嵌入 Kontact 應用程式如 KMail、KAddressBook、Akregator 等）嵌入應用程式中。
 
-Kopete: KDE's multi-protocol, free software instant messaging client.
+Kopete: KDE 上的即時通訊應用端程式，支援多個即時通訊協定。
 
-Kpackage Kit: KDE's frontend for PackageKit. PackageKit is an open source suite of software applications designed to provide a consistent and high-level front end for a number of different package management systems.
+Kpackage Kit: PackageKit 的 KDE 前端介面。PackageKit 是一套開放源碼的套件，提供相同的前端介面，在不同系統套件裡做套件管理。
 
-Kparts: component framework for the KDE SC. For example, Konsole is available as a KPart and is used in applications like Konqueror and Kate.
+Kparts: KDE 軟體集中的組件框架。例如，Konsole 可以做為 Konqueror 與 Kate 中的一個 KPart 組件。
 
-Konversation: user-friendly Internet Relay Chat (IRC) client built on the KDE Platform.
+Konversation: 在 KDE 平台上建立的一套 IRC 客戶端程式。
 
-KWin: the window manager that is an integral part of the KDE SC. It can also be used on its own or with other desktop environments.
+KWin: KDE 軟體集中的視窗管理員。除了 KDE 外，它也可比跟其它的桌面環境搭配。
 
 L
 
-LAMP: acronym for a software bundle or platform consisting of Linux, Apache, MySQL and Perl/PHP/Python.
+LAMP: 一個軟體組合的頭字語，表示 Linux, Apache, MySQL 與 Perl/PHP/Python 的組合。
 
-Licensing: legal instruments (usually by way of contract law) that govern the usage or redistribution of software. All software is copyright protected, except material in the public domain.
+Licensing (授權): 一種規範軟體使用與重新散布的法律說明。除了開放領域 (public domain) 的軟體外，所有的軟體都是透過著作權 (copyright) 保護。
 
-Localization (l10n): making the changes required to display a program's interface using the language and conventions of a particular country (see also Internationalization).
+Localization (地域化，l10n): 將程式介面使用的語言變成特定國家的語言與文字。請參考國際化 (Internationalization) 的說明。
 
 M
 
-Mailing list: A collection of names and addresses used by an individual or an organization to send material to multiple recipients. Often extended to include the people subscribed to such a list, so the group of subscribers is referred to as the mailing list, or simply the list.
+Mailing list (郵件論壇): 將信件與資料一次傳遞給多個收件者的方式。通常由個人或組織所維護，有興趣討論的人則可以訂閱該論壇以便收到討論與資料。這個名詞也延伸到訂閱此論壇的人們。
 
 N
 
-Nepomuk: KDE workspaces project that supports annotations, indexing, search, and linking.
+Nepomuk: KDE 工作空間中支援註記、索引、搜尋與連結的專案。
 
-Nick: a user's screen name or online handle.
+Nick (暱稱): 使用者線上或螢幕上顯示的名稱。
 
 Nightly: a neutral build that reflects the current state of the source code checked into the version control system by the developers, as built in a neutral environment (that is, in an environment not used for development). A nightly build is a neutral build that takes place automatically, typically each night. Project Neon is such a project for KDE.
 
 O
 
-Object-oriented programming (OOP): a programming paradigm using objects – data structures consisting of data fields and methods together with their interactions – to design applications and computer programs.
+Object-oriented programming (物件導向程式設計，OOP): 一種使用物件概念的程式設計方式。所謂的物件概念，就是在資料結構中包含了資料欄位與互動方法。
 
 Ocular: KDE's universal document viewer based on KPDF.
 
@@ -197,7 +197,7 @@ Quassel: cross-platform, distributed IRC client, meaning that one (or multiple) 
 
 R
 
-Rekonq: KDE web browser based on WebKit.
+Rekonq: KDE 中以 WebKit 做引擎的網頁瀏覽器。
 
 Reviewboard: web-based collaborative code review tool, available as free software under the MIT License. An alternative to Rietveld and Gerrit, Review Board integrates with Bazaar, ClearCase, CVS, Git, Mercurial, Perforce, and Subversion.
 
@@ -205,7 +205,7 @@ Review: systematic examination (often as peer review) of computer source code. I
 
 S
 
-Script: small program written for a command interpreter or another scripting language.
+Script: 一種用文稿與言寫的小型程式，用命令直譯器 (command intepreter) 來解譯。
 
 Server: computer program running to serve the requests of other programs, the clients.
 
