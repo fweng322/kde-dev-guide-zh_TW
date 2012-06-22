@@ -229,35 +229,35 @@ Telepathy: 一套即時通訊系統的框架，支援許多即時通訊、VoIP �
 
 Terminal (終端機): 序列埠的介面，顯示文字資料用。請參考主控台 (console) 的說明。
 
-Testing: investigation conducted to provide stakeholders with information about the quality of the product or service under test.
+Testing: 提供產品或服務品質的測試資訊給資助者的調查。
 
 Text editor (文字編輯器): 用於編輯純文字檔的程式。
 
-Toolchain (工具鍊): set of programming tools that are used to create a product (typically another computer program or system of programs). The tools may be used in a chain, so that the output of each tool becomes the input for the next, but the term is used widely to refer to any set of linked development tools.
+Toolchain (工具鍊): 用於建立產品（通常是另一個電腦程式或程式的系統）的程式工具集。這些工具可能要前後串連著使用，一個程式的輸出可能會是另一個程式的輸入，所以稱為工具鍊。不過這個名詞已經泛指連結開發工具集。
 
-Toolkit: set of basic building units for graphical user interfaces. KDE SC uses the Qt toolkit.
+Toolkit (工具組): 用於編譯圖形使用者介面的基本單位。KDE 軟體集使用的是 Qt 工具組 (Qt Toolkit)。
 
-Trunk: the unnamed branch (version) of a file tree under revision control. The trunk (or master) is usually meant to be the base of a project on which development progresses.
+Trunk: 版本控制系統內，未命名的分支（版本）樹。Trunk (或 master) 通常是專案開發過程中的專案基礎。
 
 U
 
-Unit tests: method by which individual units of source code are tested to determine if they are fit for use. A unit is the smallest testable part of an application. In object-oriented programming a unit is usually an interface, such as a class.
+Unit tests (單元測試): 將程式源碼中的個別小單位分別測試，以便決定是否適用的方法。一個單位是指應用程式裡可測試的最小部份。在物件導向程式中，一個單位通常是一個介面，如類別。
 
-Usability: ease of use and learnability of a human-made object, in this case, our software.
+Usability (可用性): 人類所製作的物件（如我們的軟體）的易用性與易學性。
 
-Userbase: KDE's user documentation wiki.
+Userbase: KDE 的使用者文件 wiki 站台。
 
 V
 
-Valgrind: GPL licensed programming tool for memory debugging, memory leak detection, and profiling. The name valgrind comes from the main entrance to Valhalla in Norse mythology.
+Valgrind: 一套 GPL 授權的程式工具，用於記憶體除錯、記憶體滴漏偵測與效能測試。valgrind 的名字來自挪威神話中的 Valhalla 神殿的入口。
 
-Variable: symbolic name given to some known or unknown quantity or information, for the purpose of allowing the name to be used independently of the information it represents. A variable name in computer source code is usually associated with a data storage location and thus also its contents, and these may change during the course of program execution.
+Variable (變數): 一個符號名稱，表示某些已知或未知的資訊值。使用變數符號的目的是讓此名稱可以獨立地表達它所表達的資訊。程式源碼中的變數名稱通常與資料儲存位置與內容有關，這些在程式執行期間可能會有所變化。
 
-Version control: Revision control, also known as version control and source control (and an aspect of software configuration management or SCM), is the management of changes to documents, programs, and other information stored as computer files. It is most commonly used in software development, where a team of people may change the same files. Changes are usually identified by a number or letter code, termed the "revision number", "revision level", or simply "revision".
+Version control (或 Revision control，source control，版本控制):  管理文件、程式與電腦檔案資訊的變更的系統。它常用在程式開發中，因為一個開發團隊中常常有多個人同時變更同一個檔案。這些變更經常以數字或字母代碼來表示，又叫做版號（revision number, revision level）或版本 (revision)。
 
 W
 
-Widget: element of a graphical user interface (GUI) that displays an information arrangement changeable by the user, such as a window or a text box. The defining characteristic of a widget is to provide a single interaction point for the direct manipulation of a given kind of data. In other words, widgets are basic visual building blocks which, combined in an application, hold all the data processed by the application and the available interactions on this data.
+Widget (元件): element of a graphical user interface (GUI) that displays an information arrangement changeable by the user, such as a window or a text box. The defining characteristic of a widget is to provide a single interaction point for the direct manipulation of a given kind of data. In other words, widgets are basic visual building blocks which, combined in an application, hold all the data processed by the application and the available interactions on this data.
 
 Wiki: website that allows the creation and editing of any number of interlinked web pages via a web browser using a simplified markup language or a WYSIWYG text editor. Wikis are typically powered by wiki software and are often used collaboratively by multiple users. 
 
@@ -269,7 +269,7 @@ X
 
 Y
 
-Yakuake: drop-down terminal emulator based on KDE Konsole technology.
+Yakuake: 由 KDE Konsole 改過來的下拉式終端模擬器。
 
 Z
 
