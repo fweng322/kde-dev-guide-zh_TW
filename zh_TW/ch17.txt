@@ -257,15 +257,15 @@ Version control (或 Revision control，source control，版本控制):  管理�
 
 W
 
-Widget (元件): element of a graphical user interface (GUI) that displays an information arrangement changeable by the user, such as a window or a text box. The defining characteristic of a widget is to provide a single interaction point for the direct manipulation of a given kind of data. In other words, widgets are basic visual building blocks which, combined in an application, hold all the data processed by the application and the available interactions on this data.
+Widget (元件): 圖形使用者介面的元素，用於顯示資訊給使用者看，如視窗或文字盒等等。簡單地說，元件就是在應用程式內基本的可見區塊，顯示並提供與應用程式所處理的資料互動的功能。
 
-Wiki: website that allows the creation and editing of any number of interlinked web pages via a web browser using a simplified markup language or a WYSIWYG text editor. Wikis are typically powered by wiki software and are often used collaboratively by multiple users. 
+Wiki (維基): 一種網站，裡面提供一種簡單的標記語言 (markup language) 與一個所見即所得的文字編輯器，讓使用者可以建立與編輯網頁內容。維基站台通常是跑某一套維基軟體，讓多個使用者可以同時協作文件。
 
-Word processor: computer application used for the production (including composition, editing, formatting, and possibly printing) of any sort of printable material.
+Word processor (文書處理程式): 一種應用程式，用來產生（包括組合、編輯、編排格式、以及列印等）任何可列印的文書材料。
 
 X
 
- X, X window system: computer software system and network protocol that provides a basis for graphical user interfaces (GUIs) and rich input device capability for networked computers. It creates a hardware abstraction layer where software is written to use a generalized set of commands, allowing for device independence and reuse of programs on any computer that implements X. X.Org serves as the canonical implementation of X, and is what KDE SC uses.
+X, X window system: 一種電腦軟體系統與網路協定，提供網路電腦一套基本的圖形使用者介面與輸入裝置處理功能。它會建立一個硬體抽象層，提供共用的指令集，不會受到不同的硬體有不同的指令集的限制，讓跑 X 的電腦可以輕鬆使用硬體。X.org 是 X 的一套標準實作，KDE 軟體集也使用它。
 
 Y
 
@@ -273,5 +273,5 @@ Yakuake: 由 KDE Konsole 改過來的下拉式終端模擬器。
 
 Z
 
-Z-machine: virtual machine used by Infocom for its text adventure games. Kwest is a Z-machine interpreter for KDE.
+Z-machine: Infocom 用來做它的文字探險遊戲的虛擬機器。Kwest 是 Z-machine 在 KDE 上的直譯器。
 
